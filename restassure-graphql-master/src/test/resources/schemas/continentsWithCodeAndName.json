@@ -1,0 +1,51 @@
+{
+  "$ref": "#/definitions/Initial",
+  "definitions": {
+    "Initial": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data"
+      ],
+      "title": "Initial"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "continents": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Continent"
+          }
+        }
+      },
+      "required": [
+        "continents"
+      ],
+      "title": "Data"
+    },
+    "Continent": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "name"
+      ],
+      "title": "Continent"
+    }
+  }
+}
