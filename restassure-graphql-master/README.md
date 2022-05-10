@@ -37,7 +37,7 @@ Use o arquivo _pom.xml_ já criado para baixar/instalar as dependência
 
 - Clone este repositório para sua máquina local usando http ou ssh, por exemplo:
 
-`git clone git@github.com:DouglasWillamis/restassured-example.git`
+`git clone https://github.com/NathaneHenrique/exercicio-restassure-graphql.git`
 
 - Instale todas as dependências (pom.xml) utilizando mvn install:
 
@@ -56,11 +56,3 @@ Use o arquivo _pom.xml_ já criado para baixar/instalar as dependência
 ###### IMPORTANTE:
 Como o repositório é **apenas para estudos**,
 em caso de novos dados, os testes podem quebrar.
-
----
-
-# Sugestões
-
-- <a href="https://www.linkedin.com/in/douglas-willamis/" target="_blank">`Linkedin`</a>
-
----
